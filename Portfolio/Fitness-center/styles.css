@@ -1,0 +1,68 @@
+.company-name{
+margin-bottom: 0;
+    color: #FFD700;
+    text-align: center;
+    position: relative;
+}
+.motto{
+    margin-top: 0;
+    color: #808080;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.fitness-image{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    position: absolute;
+    margin: 0;
+}
+.fitness-image img{
+    width: 100%;
+    height: auto;
+}
+.fitness-name{
+    margin-bottom: -100px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+.copyright{
+    text-align: left;
+}
+#bottom{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+canvas{
+    z-index: -1;
+}
+.offer{
+    font-size: 30px;
+}
+.standard-name{
+    color: silver;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.premium-name{
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.price{
+    font-size: 25px;
+}
+.advantages{
+    font-size: 25px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<h1 class="intro">My portfolio - Alexander Engelhardt</h1>
+<img src="images/portfolio.png" alt="portfolio-pic" class="port-pic">
+<div class="left-text">
+    <h2 class="header-achievements">
+        My achievements:
+    </h2>
+    <ul class="achievements">
+        <li>Graduation up until high-school diploma</li>
+        <li>Several years of (self-taught) experience</li>
+        <li>3 semesters experience in German law</li>
+        <li>1 semester experience in Computer Science</li>
+        <li>Weeks of practical experience for a company</li>
+        <li><a href="#" id="resume" onclick="resumeLink(event)">Resume</a> </li>
+    </ul>
+</div>
+<div class="buttons">
+    <h2 class="reference">
+        Reference links
+    </h2>
+    <!-- To reference: about page, imprint, linkedin, whatsapp, github-->
+    <button class="about-me" onclick="window.location.href='about-me.html';">
+        <b>About me</b>
+    </button>
+    <button class="imprint" onclick="window.location.href='imprint.html';">
+        <b>Imprint</b>
+    </button>
+    <button class="projects" onclick="openGym()">Vitality fit</button>
+    <a class="linkedin" href="https://www.linkedin.com/in/alexander-michael-engelhardt/" target="_blank">
+        <img src="images/icons/linkedin-icon.png" alt="linkedin icon">
+
+    </a>
+    <a class="github" href="https://github.com/Guakocius" target="_blank">
+        <img src="images/icons/github-icon.png" alt="github icon">
+    </a>
+    <a class="whatsapp" href="https://wa.me/+4915905237247" target="_blank">
+        <img src="images/icons/whatsapp-icon.png" alt="whatsapp icon">
+    </a>
+</div>
+<div class="copyright">
+    &#169; 2023
+</div>
+</body>
+</html>

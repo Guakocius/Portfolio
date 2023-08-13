@@ -1,0 +1,104 @@
+.intro{
+    color: #0404cd;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+.port-pic{
+    max-height: 50%;
+    max-width: 50%;
+    float: right;
+    position: relative;
+}
+.left-text{
+    text-align: left;
+}
+.header-achievements{
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+ul{
+    list-style-type: disc;
+}
+.achievements{
+    font-size: 30px;
+}
+.copyright{
+    text-align: left;
+    vertical-align: bottom;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.reference{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.linkedin, .whatsapp, .github{
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+}
+.linkedin img {
+    width: 50px;
+    height: 50px;
+}
+.github img {
+    width: 60px;
+    height: 60px;
+}
+.whatsapp img {
+    width: 50px;
+    height: 50px;
+}
+.about-me, .imprint, .projects{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 0;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.whatsapp:hover, .github:hover, .linkedin:hover{
+    opacity: 0.5;
+}
+.about-me:hover, .imprint:hover, .projects:hover{
+    background-color: #8bf58b;
+    color: black;
+}
+.about{
+    text-align: center;
+}
+.about-me2{
+    font-size: 80px;
+    text-decoration: underline;
+}
+.qualifications{
+    text-align: right;
+    vertical-align: top;
+}
+.profile-pic{
+    vertical-align: bottom;
+    height: auto;
+    max-width: 250px;
+}
+.buttons{
+    margin-top: 160px;
+}
+.imprint-header{
+    font-size: 50px;
+    text-align: left;
+}
+.body-imprint{
+    background-image: url("images/wall-imprint.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
