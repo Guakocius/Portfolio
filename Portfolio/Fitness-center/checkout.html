@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vitality Fit - Checkout</title>
+    <link rel="icon" href="images/gym-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="booking.js"></script>
+
+</head>
+<body>
+<script>
+    function showOrderSummary(modelName, modelPrice) {
+        document.getElementById("modelName").textContent = modelName;
+        document.getElementById("modelPrice").textContent = modelPrice;
+    }
+    function completePurchase() {
+        const modelName = document.getElementById("modelName").textContent;
+        const modelPrice = parseFloat(document.getElementById("modelPrice").textContent);
+
+        alert(`Thanks for your purchase!
+Model: ${modelName}
+Price: ${modelPrice} €`
+        );
+    }
+</script>
+
+<div>
+    <h2>Order overview</h2>
+    <p>Subscription model: <span id="modelName"></span></p>
+    <p>Model price: <span id="modelPrice"></span></p>
+    <button onclick="completePurchase()">Buy now</button>
+</div>
+</body>
+</html>

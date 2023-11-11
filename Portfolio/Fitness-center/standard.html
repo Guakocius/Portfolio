@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Standard</title>
+    <title>Vitality Fit - Standard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/gym-icon.png">
+    <script src="booking.js"></script>
+    <script>
+        const standard = subscriptions[0];
+    </script>
 </head>
 <body>
+<div id="modelID">
 <div class="standard-name">
     <h1>
         Standard
     </h1>
 </div>
-<div>
-    <span class="price"> 49.99 € per month</span>
+<div id="standard">
+    <span class="price" data-amount="49.99"> 49.99 € per month</span><br>
+    <span class="advantages-standard">Advantages</span>
     <ul class="advantages">
-        <span class="advantages-standard">Advantages</span>
         <li>
             16 hour a day constant ability to do workout
         </li>
@@ -22,9 +28,11 @@
             Access to all basic workout equipment
         </li>
     </ul>
+    <button id="buy" onclick=window.location.href="checkout.html">Got to checkout</button>
 </div>
 <div class="fitness-image">
     <img src="images/treadmill.jpg" alt="Several treadmills, one man walking on a treadmill">
+</div>
 </div>
 </body>
 </html>
