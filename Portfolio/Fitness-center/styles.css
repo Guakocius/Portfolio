@@ -1,3 +1,6 @@
+body {
+    background-color: orange;
+}
 .company-name{
 margin-bottom: 0;
     color: #FFD700;
@@ -107,4 +110,8 @@ canvas{
     font-size: 40px;
     font-weight: bold;
     animation: shining-prm 4s infinite;
+}
+#buy:hover {
+    background-color: purple;
+    color: white;
 }
