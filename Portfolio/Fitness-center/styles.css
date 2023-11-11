@@ -60,9 +60,52 @@ canvas{
     text-align: center;
     margin: 0;
 }
+
+@keyframes price {
+    0% {color: #fff;}
+    50% {color: #FF0000;}
+    100% {color: #fff;}
+}
 .price{
     font-size: 25px;
+    animation: price 2s infinite;
 }
 .advantages{
     font-size: 25px;
+}
+
+.standard, .premium {
+    margin-top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.standard {
+    background-color: silver;
+    color: darkblue;
+}
+.premium {
+    background-color: gold;
+    color: darkgreen;
+}
+@keyframes shining-std {
+    0% {color: #fff;}
+    50% {color: #C0C0C0;}
+    100% {color: #fff;}
+}
+@keyframes shining-prm {
+    0% {color: #fff;}
+    50% {color: #FFD700;}
+    100% {color: #fff;}
+}
+
+.advantages-standard {
+    font-size: 40px;
+    font-weight: bold;
+    animation: shining-std 4s infinite;
+}
+.advantages-premium {
+    font-size: 40px;
+    font-weight: bold;
+    animation: shining-prm 4s infinite;
 }
