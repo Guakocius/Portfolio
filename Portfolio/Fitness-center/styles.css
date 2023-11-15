@@ -82,6 +82,14 @@ canvas{
     width: 200px;
     border-radius: 50%;
 }
+.standard:hover {
+    background-color: purple;
+    color: white;
+}
+.premium:hover {
+    background-color: purple;
+    color: white;
+}
 .standard {
     background-color: silver;
     color: darkblue;
@@ -114,4 +122,10 @@ canvas{
 #buy:hover {
     background-color: purple;
     color: white;
+
+}
+#buy {
+    height: 50px;
+    width: 200px;
+    background-color: lightgray;
 }
