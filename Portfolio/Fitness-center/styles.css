@@ -143,3 +143,14 @@ button:hover {
     background-color: purple;
     color: white;
 }
+.day {
+    font-size: 60px;
+}
+.btn-to-homepage {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.course {
+    font-size: 40px;
+}

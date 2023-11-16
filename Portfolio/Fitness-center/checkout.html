@@ -9,21 +9,21 @@
 
 </head>
 <body>
-<div>
-    <h2>Order overview</h2>
-    <p>Subscription model: <span id="modelName"></span></p>
-    <p>Model price: <span id="modelPrice"></span>€</p>
-    <button id="buy">Buy now</button>
+    <div>
+        <h2>Order overview</h2>
+        <p>Subscription model: <span id="modelName"></span></p>
+        <p>Model price: <span id="modelPrice"></span>€</p>
+        <button id="buy">Buy now</button>
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const modelName = urlParams.get("name");
-        const modelPrice = urlParams.get("price");
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const modelName = urlParams.get("name");
+            const modelPrice = urlParams.get("price");
 
-        document.getElementById("modelName").textContent = modelName;
-        document.getElementById("modelPrice").textContent = parseFloat(modelPrice).toFixed(2);
-    </script>
+            document.getElementById("modelName").textContent = modelName;
+            document.getElementById("modelPrice").textContent = parseFloat(modelPrice).toFixed(2);
+        </script>
 
-</div>
+    </div>
 </body>
 </html>
