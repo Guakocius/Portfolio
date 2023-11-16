@@ -127,6 +127,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .subscriptions {
     display: flex;
@@ -147,4 +148,31 @@ button:hover {
 }
 .course {
     font-size: 40px;
+}
+.hidden-links {
+    display: none;
+    position: absolute;
+}
+.hover {
+    position: relative;
+    display: inline-block;
+}
+
+.hover:hover .hidden-links {
+    display: block;
+}
+.navbar {
+    margin-top: 20px;
+}
+.about {
+    position: relative;
+}
+.we-as-employer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ed-std {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
