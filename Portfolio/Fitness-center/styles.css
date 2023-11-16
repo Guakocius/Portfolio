@@ -129,3 +129,8 @@ canvas{
     width: 200px;
     background-color: lightgray;
 }
+
+button {
+    justify-content: center;
+    align-items: center;
+}

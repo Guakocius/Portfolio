@@ -2,34 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitality Fit - Checkout</title>
     <link rel="icon" href="images/gym-icon.png">
     <link rel="stylesheet" href="styles.css">
-    <script src="booking.js"></script>
 
 </head>
 <body>
-<script>
-    function showOrderSummary(modelName, modelPrice) {
-        document.getElementById("modelName").textContent = modelName;
-        document.getElementById("modelPrice").textContent = modelPrice;
-    }
-    function completePurchase() {
-        const modelName = document.getElementById("modelName").textContent;
-        const modelPrice = parseFloat(document.getElementById("modelPrice").textContent);
-
-        alert(`Thanks for your purchase!
-Model: ${modelName}
-Price: ${modelPrice} €`
-        );
-    }
-</script>
-
 <div>
     <h2>Order overview</h2>
     <p>Subscription model: <span id="modelName"></span></p>
-    <p>Model price: <span id="modelPrice"></span></p>
-    <button id="buy" onclick="completePurchase()">Buy now</button>
+    <p>Model price: <span id="modelPrice"></span>€</p>
+    <button id="buy">Buy now</button>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const modelName = urlParams.get("name");
+        const modelPrice = urlParams.get("price");
+
+        document.getElementById("modelName").textContent = modelName;
+        document.getElementById("modelPrice").textContent = parseFloat(modelPrice).toFixed(2);
+    </script>
+
 </div>
 </body>
 </html>
