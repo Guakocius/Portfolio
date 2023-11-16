@@ -112,12 +112,6 @@ canvas{
     animation: shining-prm 4s infinite;
 }
 
-#buy {
-    height: 50px;
-    width: 200px;
-    background-color: lightgray;
-}
-
 button {
     justify-content: center;
     align-items: center;
