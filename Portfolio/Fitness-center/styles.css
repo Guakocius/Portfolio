@@ -82,14 +82,6 @@ canvas{
     width: 200px;
     border-radius: 50%;
 }
-.standard:hover {
-    background-color: purple;
-    color: white;
-}
-.premium:hover {
-    background-color: purple;
-    color: white;
-}
 .standard {
     background-color: silver;
     color: darkblue;
@@ -119,11 +111,7 @@ canvas{
     font-weight: bold;
     animation: shining-prm 4s infinite;
 }
-#buy:hover {
-    background-color: purple;
-    color: white;
 
-}
 #buy {
     height: 50px;
     width: 200px;
@@ -133,4 +121,25 @@ canvas{
 button {
     justify-content: center;
     align-items: center;
+}
+.courses {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.course-offering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscriptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    background-color: purple;
+    color: white;
 }
