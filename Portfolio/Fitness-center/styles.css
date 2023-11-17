@@ -152,6 +152,8 @@ button:hover {
 .hidden-links {
     display: none;
     position: absolute;
+    border: 1px solid lightgray;
+    background-color: lightgray;
 }
 .hover {
     display: inline-block;
@@ -173,4 +175,11 @@ button:hover {
 a {
     color: black;
     text-decoration: none;
+}
+.about-me {
+    color: blue;
+}
+.about-us2 {
+    font-size: 20px;
+    color: #30D5C8;
 }
