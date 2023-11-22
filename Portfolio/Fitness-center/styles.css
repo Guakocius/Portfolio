@@ -186,3 +186,46 @@ a {
 #buy {
     margin-bottom: 50px;
 }
+.link2 {
+    padding: 20px 50px;
+    font-size: 30px;
+    color: white;
+    background-color: darkgray;
+    display: flex;
+    margin: 0 auto;
+    opacity: 0.7;
+
+
+}
+.career .btn-to-homepage {
+    margin-top: 100px;
+}
+h2 {
+    margin-bottom: 30px;
+}
+.IAO {
+    font-size: 20px;
+    max-width: 300px;
+}
+.career {
+    max-width: 700px;
+    flex: 1;
+    padding: 20px;
+
+}
+.career-img {
+    display: flex;
+    align-items: flex-end;
+    width: 680px;
+    height: 800px;
+    margin-left: 20px;
+}
+div .career .career-links {
+    display: flex;
+    max-width: 300px;
+}
+#career-gif {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
